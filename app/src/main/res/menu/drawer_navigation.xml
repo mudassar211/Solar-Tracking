@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_category"
+        android:icon="@drawable/ic_baseline_category_24"
+        android:title="Categories" />
+
+    <item android:title="Communication">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/ic_baseline_contact_page_24"
+                    android:title="Contact Us" />
+
+                <item
+                    android:id="@+id/nav_aboutUs"
+                    android:icon="@drawable/ic_baseline_about"
+                    android:title="About Us" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Closing">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_baseline_logout"
+                    android:title="Logout" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
